@@ -10,10 +10,10 @@ class Navigation extends React.Component {
                 
                 <nav class="mobile-menu">
                     <div classname="logo">
-                        <img src={logo} alt="mobileLogo"/>
+                        <img src={logo} bhu alt="mobileLogo" />
                 </div>
                     <div className="hamburgerMenu">
-                        <img src={hamburger} alt="Menu"/>
+                        <img src={hamburger} alt="menu"/>
                         </div>
                 
                     <div className="navFlexBox">

@@ -28,7 +28,7 @@ function Footer() {
             <p>Privacy Policy</p>
             </div>
                 <br/>
-            <button></button>
+            <button>Request Invite</button>
             <br />
             <p>EasyBank.All Rights Reserved</p>
         </footer>
