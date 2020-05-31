@@ -20,3 +20,17 @@ footer{
 .copyRight{
     color: #868AA0;
 }
+
+@media screen and (min-width: 1040px){
+    footer{
+        display: grid;
+        flex-direction: row;
+    }   
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+}
+

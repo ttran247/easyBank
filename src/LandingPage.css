@@ -39,7 +39,16 @@ img{
    hero {
        display: none;
    } 
-   .desktopHero{
+   .landingImgDesktop{
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 100;
+    
+}
+
+.landingImgDesktop{
        display: block;
    }
    .desktopHero{
@@ -53,4 +62,5 @@ img{
         align-items: flex-start;
 
     }
+  
 }

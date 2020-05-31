@@ -8,13 +8,13 @@ import restaurant from './images/image-restaurant.jpg'
 function Article() {
     return (
 
+        
         <section className="article">
-
-            <h2>Latest Articles</h2>
+        <h2 >Latest Articles</h2>
             <br />
 
 
-            <div className="card-container">
+            <div className="cardContainer">
                 <div className="card">
                     <div className="imgCard">
                         <img src={currency}  alt="articlePicture" />
@@ -66,6 +66,7 @@ function Article() {
                     </div>
                 </div>
             </div>
+            
         </section>
        
 
