@@ -17,7 +17,7 @@ function Article() {
             <div className="card-container">
                 <div className="card">
                     <div className="imgCard">
-                        <img src={currency} alt="articlePicture" />
+                        <img src={currency}  alt="articlePicture" />
                     </div>
                     <div className="article-info">
                         <p>  By Claire Robinson
@@ -27,7 +27,7 @@ function Article() {
                         forced to only receive money in a single … </p>
                     </div>
                 </div>
-
+        <br/>
                 <div className="card">
                     <div className="imgCard">
                         <img src={restaurant} alt="articlePicture" />
@@ -39,6 +39,7 @@ function Article() {
   realistic limits each month. That means you …</p>
                     </div>
                 </div>
+                <br />
 
                 <div className="card">
                     <div className="imgCard">
@@ -51,8 +52,9 @@ function Article() {
   while you’re abroad. We’ll even show you … </p>
                     </div>
                 </div>
+                <br />
 
-                <div classname="card">
+                <div className="card">
                     <div className="imgCard">
                         <img src={confetti} alt="articlePicture" />
                     </div>
@@ -65,6 +67,7 @@ function Article() {
                 </div>
             </div>
         </section>
+       
 
     )
 }

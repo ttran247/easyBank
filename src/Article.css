@@ -1,0 +1,31 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-container{
+     border-radius: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+
+}
+.card {
+display: block;
+background: #FFFFFF;
+box-shadow: 0 30px 80px 0 rgba(0,0,0,0.19);
+max-height: 15%;
+max-width: 65%;
+}
+
+
+
+.article-info{
+    padding: 10px;
+}
+
+imgCard{
+    width:100%;
+}

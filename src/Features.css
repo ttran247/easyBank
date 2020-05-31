@@ -1,0 +1,10 @@
+
+.features-background{
+    background-color: #F4F5F7 ;
+   text-align: center; 
+}
+.features-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

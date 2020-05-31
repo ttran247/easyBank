@@ -9,12 +9,11 @@ class Navigation extends React.Component {
             <>
                 
                 <nav class="mobile-menu">
-                    <div classname="logo">
-                        <img src={logo} bhu alt="mobileLogo" />
+                    <div className="logo" className="nav-col">
+                        <img src={logo} alt="mobileLogo" />
                 </div>
-                    <div className="hamburgerMenu">
+                    <div className="hamburgerMenu" className="nav-col">
                         <img src={hamburger} alt="menu"/>
-                        </div>
                 
                     <div className="navFlexBox">
                         <ul class="navBarLinks">
@@ -25,8 +24,9 @@ class Navigation extends React.Component {
                             <li className="navLink">Career</li>
                         </ul>
                     </div>
-
                     <button>Request Invite</button>
+                        </div>
+
                 </nav>
 
                 <nav class="desktop-menu">

@@ -5,6 +5,11 @@ import youtube from './images/icon-youtube.svg'
 import twitter from './images/icon-twitter.svg'
 import instagram from './images/icon-instagram.svg'
 import pinterest from './images/icon-pinterest.svg'
+import './Footer.css'
+
+
+
+
 
 function Footer() { 
     return (
@@ -26,11 +31,11 @@ function Footer() {
             <p>Careers</p>
             <p>Support</p>
             <p>Privacy Policy</p>
-            </div>
                 <br/>
+            </div>
             <button>Request Invite</button>
             <br />
-            <p>EasyBank.All Rights Reserved</p>
+            <p className="copyRight">EasyBank.All Rights Reserved</p>
         </footer>
     )
 }

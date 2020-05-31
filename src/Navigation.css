@@ -1,4 +1,11 @@
+.mobile-menu{
+  display: flex;
+  flex-direction: row;
+}
 
 .desktop-menu{
   display: none;
+}
+.nav-col{
+  width: 50%;
 }
