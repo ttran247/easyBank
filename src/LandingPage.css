@@ -22,5 +22,35 @@ img{
     flex-direction: column;
     align-items: center;
     padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
 }
 
+.heading{
+    color: hsl(233, 26%, 24%);
+
+}
+
+.heading-info{
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 1040px) {
+   hero {
+       display: none;
+   } 
+   .desktopHero{
+       display: block;
+   }
+   .desktopHero{
+       display: flex;
+       flex-direction: row;
+       background-color: white;
+       }
+    .desktopContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+}

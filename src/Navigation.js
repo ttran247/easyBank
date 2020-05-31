@@ -4,6 +4,22 @@ import logo from './images/logo.svg'
 import hamburger from './images/icon-hamburger.svg'
 
 class Navigation extends React.Component {
+    constructor(props) { 
+        super(props);
+        this.state = {
+            menuOpen: false,
+        }
+    }
+    handleMenuClick = () => {
+        this.setState({
+            menuOpen: !this.state.menuOpen,
+            
+        })
+    }
+    
+    handleLinkClick() { 
+        this.setState({ menuOpen: false});
+    }
     render() {
         return (
             <>
@@ -12,7 +28,7 @@ class Navigation extends React.Component {
                     <div className="logo" className="nav-col">
                         <img src={logo} alt="mobileLogo" />
                 </div>
-                    <div className="hamburgerMenu" className="nav-col">
+                    <div className="hamburgerMenu" open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} className="nav-col">
                         <img src={hamburger} alt="menu"/>
                 
                     <div className="navFlexBox">

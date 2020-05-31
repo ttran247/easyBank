@@ -2,6 +2,7 @@ import React from "react"
 import './LandingPage.css'
 import mockups from './images/image-mockups.png'
 
+
 function LandingPage(props) {
     return (
         <>

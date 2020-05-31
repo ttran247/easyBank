@@ -9,3 +9,35 @@
 .nav-col{
   width: 50%;
 }
+.hamburgerMenu{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 1040px) {
+  .mobile-menu {
+    display: none;
+  }
+    .desktop-menu{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 20vh;
+    }
+    .navBarLinks{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+    
+    }
+    .navLink{
+      display: flex;
+      flex-direction: row;
+    }
+
+   
+  }

@@ -9,6 +9,8 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .footerContent p {
     text-align: center;
